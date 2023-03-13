@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 1280px;
+    height: 820px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://unsplash.it/1920/1080");
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    width: 80%;
+    background: rgba( 39, 37, 37, 0.55 );
+    box-shadow: 0 8px 32px 0 rgba(252, 252, 252, 0.37);
+    backdrop-filter: blur( 6.5px );
+    -webkit-backdrop-filter: blur( 6.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+select {
+    width: 300px;
+    color: black;
+}
+
+td, tr, th {
+    background: rgba( 39, 37, 37, 0.55 );
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur( 6.5px );
+    -webkit-backdrop-filter: blur( 6.5px );
+    /* border-radius: 10px; */
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: white;
+}
+
+td {
+    padding: 10px;
+}
+
+
+h3 {
+    width: 50vw;
+    line-height: 2;
+    color: white;
+}
+
+label {
+    color: white;
+    margin: 10px;
+    font-size: 1.5rem;
+}
+
+h1 {
+    color: white;
+}
+
+section form div:nth-of-type(4) {
+    color: white;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 50px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
